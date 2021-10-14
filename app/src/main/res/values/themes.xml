@@ -3,4 +3,12 @@
     <style name="Theme.CalenderApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
 
     </style>
+
+    //style for custom dialog
+    <style name="CustomDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:editable">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
 </resources>

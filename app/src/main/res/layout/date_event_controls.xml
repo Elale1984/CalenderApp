@@ -2,29 +2,44 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background = "@drawable/gradient_drawable"    >
 
-    <TextView
-        android:id="@+id/tv_AddEvent"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/add_event"
-        android:textSize="20sp"
-        android:textColor="@color/blue"
-        android:textStyle="bold"
-        android:onClick="AddEventClickListener"
-        android:clickable="true"/>
-    <TextView
-        android:id="@+id/tv_RemoveAllEvents"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/remove_all_events"
-        android:textSize="20sp"
-        android:textColor="@color/blue"
-        android:textStyle="bold"
-        android:paddingTop="25dp"
-        android:clickable="true"
-        android:onClick="RemoveAllEventsClickListener"/>
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+
+
+        <TextView
+            android:id="@+id/tv_AddEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_event"
+            android:textSize="20sp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:onClick="AddEventClickListener"
+            android:clickable="true"/>
+        <TextView
+            android:id="@+id/tv_ViewEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_events"
+            android:textSize="20sp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:onClick="RemoveAllEventsClickListener"/>
+
+    </LinearLayout>
 
 
 </RelativeLayout>

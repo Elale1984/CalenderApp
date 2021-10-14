@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/calenderApp/app/src/main/res/drawable/gradient_drawable.xml" value="0.14635416666666667" />
         <entry key="..\:/calenderApp/app/src/main/res/layout/activity_main.xml" value="0.1721014492753623" />
         <entry key="..\:/calenderApp/app/src/main/res/layout/calender_cell.xml" value="0.1721014492753623" />
         <entry key="..\:/calenderApp/app/src/main/res/layout/date_event_controls.xml" value="0.1721014492753623" />
